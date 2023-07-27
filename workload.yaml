@@ -8,7 +8,7 @@ metadata:
 spec:
   params:
     - name: dockerfile
-      value: ./dockerfile
+      value: ./Dockerfile
     - name: docker_build_context
       value: .
   source:
