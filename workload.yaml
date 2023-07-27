@@ -9,6 +9,8 @@ spec:
   params:
     - name: dockerfile
       value: ./dockerfile
+    - name: docker_build_context
+      value: .
   source:
     git:
       url: https://github.com/carlosonunez-vmw/tap-examples-dockerfile-vac
